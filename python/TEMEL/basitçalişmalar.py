@@ -48,12 +48,42 @@ print(len(string)); #7 çıktısını verir
 
 #String Birleştirme
 
-a="Esmanur ";
-a= a +  "Eral";
-print(a);
+a="Esmanur "
+a= a +  "Eral"
+print(a)
 
 #not:herhangi bir stringin belli bir indexindeki değeri direkt atama yöntemiyle değiştiremiyoruz.
 #a = "Python"
 #a[0] = 'C'
 #a
+
+# float: tam sayıyı ondalığa çevirir.
+# int: ondalıklı sayıyı tam sayıya çevirir.
+# str: tam sayıyı stringe çevirir.
+# \n: aşağı satırdan devam.
+
+
+# sep parametresi: print() fonksiyonunda kullanılır değerlerin arasına istediğimiz karakterin yazdırılmasını sağlar
+
+print("esmanur ","eral",sep=" :D ") #çıktısı:esmanur  :D eral
+
+#yıldız parametresi:print() fonksiyonunda kullanılır değerlerin arasına boşluk koyar
+
+print(*"esmanur") # e s m a n u r 
+
+#liste.append() ekleme
+#liste.sort()   küçükten büyüğe sıralama
+
+#input("bir sayı gir")
+
+#aşağıdaki örnekte sayıların string oldugunu unutma toplama yanyana yazar. a=4,b=3,c=2 ise sonuc 432 dir.
+a = input("Birinci Sayı:")
+b = input("İkinci Sayı:")
+c = input("Üçüncü Sayı:")
  
+print("Toplamları:",a+b+c)
+
+
+
+
+
