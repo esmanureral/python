@@ -86,4 +86,38 @@ print("Toplamları:",a+b+c)
 
 
 
+#in : listede olup olmadığını kontrol eder.
 
+liste=[1,2,3,4,5]
+for eleman in liste:
+    print(eleman) #çıktısı: 1 2 3 4 5 alt alta
+    
+#LİSTEDEKİ SAYILARI FOR DÖNGÜSÜYLE TOPLAMA:  
+toplam=0
+liste=[1,2,3,4,5]
+for eleman in liste:
+    toplam=toplam+eleman
+print("Toplam:",toplam) 
+
+#LİSTEDEKİ ÇİFT SAYILARI FOR DÖNGÜSÜYLE YAZDIRMA:
+liste=[1,2,3,4,5]
+for eleman in liste:
+    if eleman%2==0:
+        print("çift sayılar:",eleman)
+        
+#KARAKTER DİZİLERİ ÜZERİNDE GEZİNME:
+
+s="PYTHON"
+for karakter in s:
+    print(karakter)  #PYTHON daki harfleri tek tek yazdırır.
+    
+
+#LİSTEDEKİ TEK SAYILARI TOPLAMA
+
+liste = [2,1,10,2,23,1,56,3]
+toplam=0
+for i in liste:
+    if(not (i%2==0)):
+        toplam=toplam+i
+print(toplam)
+        
