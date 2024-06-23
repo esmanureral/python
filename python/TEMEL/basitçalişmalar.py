@@ -127,3 +127,40 @@ print(*range(0,20)) #0dan 20 ye kadar olan sayıları yazdırır.20 dahil değil
 print(*range (1,100,2)) #1den 100e kadar olan sayıların 2 şer atlayarak yazdırır.
 print(*range(20,1))#bu şekil azaltarak gitmez.
 print(*range(20,1,-1))#bu şekilde 20,19,18..2 gider.print(*range(20,1,-1))#bu şekilde 20,19,18..2 gider.
+print(*range(20,1,-1))#bu şekilde 20,19,18..2 gider.
+
+
+#ARTAN YILDIZLAR
+
+"""
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * * * *
+* * * * * * * * *
+"""
+
+for i in range(1,10):
+    print("* "*i)
+
+
+#LİST COMPREHENSİON:liste üretmek ve oluşturmak.
+
+#bir listeyi başka bir listeye aktarma
+
+liste1=[1,2,3,4,5]
+liste2=[i for i in liste1]
+print(liste2)
+
+
+liste3=[3,4,5,6,8,9]
+liste4=[i*2 for i in liste3]
+print(liste4)
+
+liste5=[(1,2),(3,4)]
+liste6=[i*j for i,j in liste5]
+print(liste6)
