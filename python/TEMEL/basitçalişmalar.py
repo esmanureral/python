@@ -121,3 +121,9 @@ for i in liste:
         toplam=toplam+i
 print(toplam)
         
+#RANGE() FONSKİYONU
+
+print(*range(0,20)) #0dan 20 ye kadar olan sayıları yazdırır.20 dahil değil.
+print(*range (1,100,2)) #1den 100e kadar olan sayıların 2 şer atlayarak yazdırır.
+print(*range(20,1))#bu şekil azaltarak gitmez.
+print(*range(20,1,-1))#bu şekilde 20,19,18..2 gider.
