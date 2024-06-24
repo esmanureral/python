@@ -22,3 +22,4 @@ else:
 
 
 
+#daha gelişmiş hali
