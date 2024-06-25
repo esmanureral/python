@@ -12,8 +12,8 @@ while(i<sayi):
     i+=1
 
 if(toplam==sayi):
-    print("girilen sayi mükemmel sayıdır.")
+    print(sayi," sayi mükemmel sayıdır.")
 else:
-    print("mükemmel sayi değildir")
+    print(sayi,"mükemmel sayi değildir")
     
 
