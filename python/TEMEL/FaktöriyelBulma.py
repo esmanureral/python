@@ -13,6 +13,6 @@ while True:
         
         for i in range(2,sayi+1):
             faktöriyel*=i
-        print("faktöriye:",faktöriyel)
+        print("faktöriyeli:",faktöriyel)
                 
     
