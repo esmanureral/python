@@ -163,3 +163,48 @@ print(liste4)
 liste5=[(1,2),(3,4)]
 liste6=[i*j for i,j in liste5]
 print(liste6)
+
+
+#esnek parametre
+
+def toplama(*a):
+    toplam=0
+    for i in a:
+        toplam=toplam+i
+    print(toplam)
+    
+toplama(1,2,3,4)
+
+#yerel(local)değişkenler:python fonksiyonlarında tanımlanan değişkenler yereldir.Yani fonk.bloğunda oluşturulan değişkenler fonk.özgüdür.
+#fonk.çalışmasını bitirdikten sonra değişkenler bellekten silinir.
+"""
+def fonksiyon():
+    a=10
+    print(a)
+    
+fonksiyon()
+print(a)
+
+fonksiyon() çalışır 10 yazar fonk.çalışması bittiği için a değişkeni silinir print(a) hata verir.
+""" 
+    
+
+#global=tanımlandıgı andan itibaren programın her yerinden ulaşılabilir.
+""" 
+b=5
+def fonksiyon():
+    print(b)
+fonksiyon()
+""" 
+
+
+#lambdasız fonk
+
+def toplama(x,y,z):
+    return x+y+z
+print(toplama(1,2,3))
+
+#lambdalı fonk
+
+toplama=lambda x,y,z:x+y+z
+print(toplama(1,2,3))
