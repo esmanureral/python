@@ -208,3 +208,34 @@ print(toplama(1,2,3))
 
 toplama=lambda x,y,z:x+y+z
 print(toplama(1,2,3))
+
+
+#init metodu:yapıcı(constructor) fonksiyon.objelerimiz oluşturulurken otomatik olarak ilk çağrılan fonksiyondur.
+#self:objeyi oluşturdugumuz zaman o objeyi göstreren bir referans.Objenin tüm özelliklerini ve metodlarını bu referenastan kullanılır.
+
+
+class ArabaA():
+    model="BMW"
+    beygir_gücü=110
+    renk="siyah"
+    silindir="4"
+    def __init__(self):
+        print("init fonksiyonu çağrıldı.")
+    
+    
+araba1=ArabaA()
+
+
+class Araba():
+    def __init__(self,model,renk,beygir_gücü,silindir):
+        print("init fonk çağrıldı")
+        self.model=model
+        self.renk=renk
+        self.beygir_gücü=beygir_gücü
+        self.silindir=silindir        
+
+Araba1=Araba("renault","gümüş",110,4)
+Araba2=Araba("peugeot","beyaz",90,4)
+
+print(Araba1.model)
+print(Araba2.model)
