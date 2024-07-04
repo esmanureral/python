@@ -239,3 +239,7 @@ Araba2=Araba("peugeot","beyaz",90,4)
 
 print(Araba1.model)
 print(Araba2.model)
+
+
+
+
