@@ -242,4 +242,3 @@ print(Araba2.model)
 
 
 
-
