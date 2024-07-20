@@ -29,3 +29,16 @@ print("Kunduz".replace("duz","zun"))
 #strip(x):başında ve sonunda bulunan x değerini siler
 #lstrip(x):sadece başında bulunan x değerini siler.
 #rstrip(x):sadece sonunda bulunan x değerini siler.
+#add():kümeye eklemek
+#difference():birinci kümenin ikinci kümeden farkı
+#discard():kümeden eleman çıkartmak
+#intersection():iki kümenin kesişimi
+#union():birleşim kümesi
+#append(): listenin en sonuna eleman ekler
+#extend():bir listenin başka bir listenin elemanını atar
+#insert():listenin belli bir indeksine bir eleman ekletir
+#pop():en sondan eleman çıkartır ve ekrana bastırır.
+#remove():verdiğiniz değeri listeden çıkarır.(eleman ismi yazılır,olmayan şey verilirse error)
+#sort():küçğkten büyüğe / alfabetik sıralar
+#sort(reverse=True):büyükten küçüğe
+
